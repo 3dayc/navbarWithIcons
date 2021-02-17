@@ -1,0 +1,28 @@
+<!-- 1. 안녕하세요. 오늘은 이러한 형태의 메뉴바를 만들어보겠습니다. vscode를 다운받은 후 켜주시고 -->
+<!-- 1-1. 마크업을 위한 index.html과 스타일을 위한 style.css를 만들어 주세요. -->
+<!-- 2. !, tab으로 코딩을 하기위한 기본세트를 구성해줍니다. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 2-2. html과 css를 연결하기 위해 링크를 걸어주세요. 이제 html을 짜볼까요? -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 5. 메뉴에 들어가는 아이콘들을 쓰기위해 폰트어썸 링크를 걸어주고 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3. 얘네는 한 영역에 있기 때문에 전체를 감싸는 div를 클래스 menu-bar라는 이름으로 만들어줄께요. -->
+    <div class="menu-bar">
+        <!-- 4. 각 메뉴요소를 a태그로 만들어 주겠습니다. -->
+        <!-- 6. 적절한 아이콘 html을 불러옵니다. 그럼 이렇게 마크업은 끝~ -->
+        <!-- 15. 첫번째 a요소에 클래스 active를 추가합니다. (css 16번으로 이동) -->
+        <a href="#" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    </div>
+</body>
+</html>
